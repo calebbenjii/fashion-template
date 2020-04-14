@@ -4,9 +4,9 @@
   --general-font: 'Muli', sans-serif;
   --primary-color: #e7ab3c;
   --secondary-color: #fff;
-  --main-color: #111;
+  --mainBlack: #111;
   --light-grey-color: #636363;
-  --dark-grey-color: #252525;
+  --darkGrey: #252525;
   --primary-grey-color: #6e6e6e;
   --trim-grey-color: #d8d9da;
   --main-grey-color: #d1d1d1;
@@ -184,11 +184,22 @@ ol {
   padding: 10px 20px;
 }
 
-
 .top-login {
   padding: 15px 0 0 10px;
   white-space: nowrap;
 }
+
+.top-icons .top-icon {
+  margin-right: 1rem;
+  color: var(--darkGrey)
+}
+
+.top-icon {
+  color: var(--darkGrey);
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+}
+
 
 
 
