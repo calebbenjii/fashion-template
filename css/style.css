@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 :root {
-  --general-font: "Muli", sans-serif;
+  --general-font: 'Muli', sans-serif;
   --primary-color: #e7ab3c;
   --secondary-color: #fff;
   --main-color: #111;
@@ -136,6 +138,57 @@ ol {
   cursor: pointer;
 }
 
+/* ========= top header ========= */
+.top-header {
+  border-bottom: solid 1px #ccc;
+  height: auto;
+}
+
+.top-header .container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.top-left, .top-center, .top-right {
+  border-right: solid 1px #ccc;
+  width: 100%;
+}
+.top-left {
+  width: 300px;
+  padding: 10px 10px 0 0;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.top-right {
+  width: 300px;
+  /* padding: 5px 10px; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-right select {
+  width: 100%;
+  border: transparent;
+}
+.top-right select option {
+  width: 100%;
+}
+
+.top-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  padding: 10px 20px;
+}
+
+
+.top-login {
+  padding: 15px 0 0 10px;
+  white-space: nowrap;
+}
 
 
 
